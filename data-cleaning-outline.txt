@@ -1,24 +1,26 @@
 Part 1
+
  - Intro / import
  - null drops [controller_support,  dlc, fullgame, legal_notice, drm_notice, ext_user_account_notice, demos, metacritic, reviews, recommendations]
  - type, name, steam_appid
  - age
  - platforms
  - price [is_free, price_overview]
- - description [detailed_description, about_the_game, short_description]
+ - packages, package_groups
  - languages
- - media/image [header_image, screenshots, background, movies]
+ - developers, publishers
+ - achievements, content_descriptors
  
 Part 2
 
- - website and support_info
- - System Requirements [pc, mac, linux]
- - developers, publishers
- - packages, package_groups
- - categories, genres
- - achievements, content_descriptors
+ - [e] description [detailed_description, about_the_game, short_description]
+ - [e] media/image [header_image, screenshots, background, movies]
+ - [e] website and support_info
+ - [e] System Requirements [pc, mac, linux]
+ - [e] categories, genres
  
 Part 3
+
  - release_date (optimisation)
  - final steps
  

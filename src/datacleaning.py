@@ -1,13 +1,14 @@
-def export_data(df, filename):
+def export_data(df, filename, prefix='steam_', extension='.csv'):
     """Export dataframe to csv file, filename prepended with 'steam_'.
     
     filename : str without file extension
     """
-    filepath = '../data/exports/steam_' + filename + '.csv'
-    formatted_name = filename.replace('_', ' ')
+    filepath = '../data/exports/' + prefix + filename + extension
+    print_name = filename.replace('_', ' ')
     
     df.to_csv(filepath, index=False)
-    print("Exported {} to '{}'".format(formatted_name, filepath))
+    
+    print("Exported {} to '{}'".format(print_name, filepath))
     
     
 def print_steam_links(df):

@@ -5,7 +5,7 @@ Data download and cleaning stages of Steam Store analysis project.
 To run locally:
 
 > clone repo  
-> download raw data from [Kaggle](https://www.kaggle.com/nikdavis/steam-store-raw) into data folder
+> download raw data from [Kaggle](https://www.kaggle.com/nikdavis/steam-store-raw) and extract into data/raw folder
 
 If using conda
 

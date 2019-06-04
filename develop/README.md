@@ -1,1 +1,0 @@
-Notebooks used for development go here. Consider this a notepad/scratchplate for developing ideas and code. As a result, code is not well maintained and will mostly not run in sequence, and is mainly used for reference when building the final delivery notebooks (in notebooks folder).
